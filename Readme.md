@@ -37,7 +37,7 @@ followed by a space character.
 
 --
 
-Now drag the jQuery Library from the 'js' folder from 'myProject' to the terminal window. It should look like this:
+Now drag the jQuery Library from the 'js' folder from 'common' to the terminal window. It should look like this:
 
 ```
 $ ln -s /Users/andy/hammertest/common/js/jquery-1.8.3.min.js
