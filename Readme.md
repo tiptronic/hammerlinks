@@ -67,6 +67,8 @@ As you can see in the screenshot, all symlinks where followed properly and the f
 
 Try out creating a second project and add the common-files there as well, then change something e.g. in app.js and see it magically appear in both of your projects.
 
+Btw: You can use this for your _includes as well!
+
 Enjoy!
 
 ## What if you want to sync your project across computers?
