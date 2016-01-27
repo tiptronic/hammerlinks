@@ -84,7 +84,7 @@ Fortunately our terminal has a solution for this!
 ## Relative Symlinks
 Although the steps are quite similar as above, we need a tiny change in our terminal command(s):
 
-First we must navigate to our project folder (using the infamous *cd* (change directory) command in the terminal:
+First we must navigate to our project's target folder - in this example 'js' (using the infamous *cd* (change directory) command in the terminal:
 
 ```
 $ cd /Users/andy/hammertest/myProject/assets/js
@@ -102,11 +102,11 @@ Now you can move the project and the common folder to any other location (or com
 
 Using this technique you can build your own (relative) folder-structure and keep files organized as you like. When you need to change a file, just replace the source-file - your symlinks will stay intact and still point to the correct (new) file. 
 
-Therefore I always remove version numbers from the source files. In this case I'd rename 'jquery-1.8.3.min.js' to 'jquery.min.js', so if I update the jQuery-library, all of my projects just need to get rebuild and then carry the new library (Don's forget to test your builds afterwards!)
+Here's one side-note: I always remove version numbers from the source files. In this case I'd rename 'jquery-1.8.3.min.js' to 'jquery.min.js', so if I update the jQuery-library, all of my projects just need to get rebuild and then carry the new library (Don't forget to test your builds afterwards!)
 
 
 ## One more thing
-Here's a quick tip, if you want to share a whole bunch of files from a common folder to your project(s). You don't need to move every file after the other. Depending how your assets are organized, you can move all assets at once.
+Here's a quick tip, if you want to share a whole bunch of files from a common folder to your project(s). You don't need to move every file after the other. Depending on how your assets are organized, you can move all assets at once.
 
 Again, in the terminal cd to the target folder:
 
