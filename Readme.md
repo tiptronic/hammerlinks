@@ -14,7 +14,7 @@ Let me show you the power of this technique by a simple example:
 
 *(I am explaining some exact steps for the not-so-experienced folks, so please everybody bear with me)*
 
-*	First we create an empty project right from within Hammer (of course, you can it manually as well)
+*	First we create an empty project right from within Hammer (of course, you can create one manually as well)
 * For better readability I renamed the project to 'myProject'
 * Create another folder 'common' in the same folder as the your Hammer project.
 
